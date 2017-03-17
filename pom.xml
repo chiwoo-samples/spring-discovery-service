@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.chiwooplatform.cloud.sample</groupId>
-	<artifactId>poc-discovery-service</artifactId>
+	<artifactId>discovery-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>poc-discovery-service</name>
+	<name>discovery-service</name>
 	<description>Discovery Service for PoC</description>
 
 	<parent>
