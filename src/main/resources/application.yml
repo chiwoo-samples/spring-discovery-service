@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: ${DISCOVERY_SERVICE_DOMAIN:localhost}
+    hostname: ${DISCOVERY_HOSTNAME:localhost}
   server:
      enableSelfPreservation: true
      a-s-g-query-timeout-ms: 300
@@ -11,5 +11,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      # defaultZone: http://${eureka.instance.hostname:localhost}:${server.port}/eureka/
       defaultZone: http://${eureka.instance.hostname:localhost}:${server.port}/eureka/
